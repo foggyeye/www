@@ -2,7 +2,7 @@ body	{background-color:#F8FAF8;}
 
 /*- - - - - Typography - - - - - */
 
-h1, h2, h3, h4, h5, h6, p, li {text-align:left !important; font-family:"proxima-nova" sans-serif; font-style: normal;}
+h1, h2, h3, h4, h5, h6, p, li {text-align:left !important; font-family:"proxima-nova", sans-serif; font-style: normal;}
 .site-nav ul li a			  {font-family: "futura-pt",sans-serif; font-style: normal; font-weight: 400; color:#B8B8C2; text-decoration:none; border:none;}
 
 h1.errorPages	{font-weight: 100; font-size:200px !important; line-height:1; margin-top:20%; padding:0 !important;}
@@ -71,10 +71,10 @@ font-weight: 600;*/
 
 /*- - - - - Header area - - - - - */
 
-.hero	{padding:80px 0 40px 0;}
-.hero h1	{ padding:0 0 40px 0;}
+.hero		{padding:80px 0 40px 0;}
+.hero h1	{padding:0 0 40px 0;}
 
-header	{width:100%; height:90px;}
+header					{width:100%; height:90px;}
 .site-header_logo		{float:left; margin-top:20px;}
 .site-header_logo h1	{display:none;}
 .site-header_logo a		{background: url(../img/foggyEye_logo_full@2x.png) no-repeat 0px 0px; background-size:181px 48px; width:181px; height:48px; display:block; border:none;}
@@ -103,6 +103,7 @@ a.toTop:hover	{opacity: 0.4; filter: alpha(opacity=40); text-decoration:none; bo
 .whiteBG 	{background-color:#ffffff;}
 .darkBG	    {background-color:#221e20;}
 
+ul.logos	{width:100% !important;}
 ul.logos li, ul.footer li	{list-style:none !important; padding:0 !important; margin:0 !important;}
 
 li img.clientLogo	{border:1px solid #39A5DE; float:left; margin:20px 30px 10px 0; opacity: 0.4; filter: alpha(opacity=40);}
